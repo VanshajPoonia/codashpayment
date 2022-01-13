@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Codash Payment</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
+    <script src="https://kit.fontawesome.com/a81368914c.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <body>
+    <img class="wave" src="img/wave.png" />
+    <div class="container">
+      <div class="img">
+        <img src="img/qrcode.jpeg" />
+      </div>
+      <div class="login-content">
+        <form action="https://formspree.io/f/mzbodzap" method="POST">
+          <!-- <img src="img/avatar.svg" /> -->
+          <h2 class="title">Payment Page</h2>
+          <p>
+            You may scan the QR Code or type the UPI id to pay via UPI.
+            If you are someone out of India, you can pay via <a href="https://paypal.me/sumanpoonia?country.x=IN&locale.x=en_GB">Paypal</a> or <a href="https://www.patreon.com/codashtech">Patreon</a>
+          </p><br><br>
+          <div class="input-div one">
+            <div class="i">
+              <i class="fas fa-user"></i>
+            </div>
+            <div class="div">
+              <h5>What's your Name?</h5>
+              <input type="text" class="input" name="name" />
+            </div>
+          </div>
+          <div class="input-div pass">
+            <div class="i">
+              <i class="fas fa-envelope"></i>
+            </div>
+            <div class="div">
+              <h5>Email Id on which you want to receive the credentials</h5>
+              <input type="text" class="input" name="mailid" />
+            </div>
+          </div><br>
+          <p>
+            Enter the plan that you want to choose.<br />
+            <ul><li>Spark Monthly</li>
+            <li>Spark Yearly</li>
+            <li>Flame Monthly</li>
+            <li>Flame Yearly</li>
+            <li>Blaze Monthly</li>
+            <li>Blaze Yearly</li></ul>
+            Enter the name of the plan below
+          </p>
+          <div class="input-div pass">
+            <div class="i">
+              <i class="fas fa-code"></i>
+            </div>
+            <div class="div">
+              <h5>"Enter the one of the plan name from above"</h5>
+              <input type="text" class="input" name="plan" />
+            </div>
+          </div>
+          <div class="input-div pass">
+            <div class="i">
+              <i class="fas fa-credit-card"></i>
+            </div>
+            <div class="div">
+              <h5>Enter your payment method</h5>
+              <input type="text" class="input" name="paymentmethod" />
+            </div>
+          </div>
+          <div class="input-div pass">
+            <div class="i">
+              <i class="fas fa-credit-card"></i>
+            </div>
+            <div class="div">
+              <h5>Enter your credentials</h5><br>
+              <input type="text" class="input" name="credentials" />
+            </div>
+          </div>
+          <p>(Eg : UPI ID, Paytm Name/Number, Patreon id, Paypal id so that we can verify)</p><br>
+          <div class="input-div pass">
+            <div class="i">
+              <i class="fas fa-envelope-square"></i>
+            </div>
+            <div class="div">
+              <h5>Any Doubt?</h5><br>
+              <input type="text" class="input" name="message" />
+            </div>
+          </div>
+          <a href="https://codashsupport.pages.dev">Need Support?</a>
+          <input type="submit" class="btn" value="Let's Go!" />
+        </form>
+      </div>
+    </div>
+    <script type="text/javascript" src="js/main.js"></script>
+  </body>
+</html>
